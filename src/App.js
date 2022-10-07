@@ -1,8 +1,13 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import bannerConnectingDots from './bannerConnectingDots';
+import aboutSection from './aboutSection'
+import navBar from './navBar'
+import projectsSection from './projectsSection'
+import contactSection from './contactSection'
 
-class LambdaDemo extends Component {
+/* class LambdaDemo extends Component {
   constructor(props) {
     super(props)
     this.state = { loading: false, msg: null }
@@ -46,5 +51,6 @@ class App extends Component {
     )
   }
 }
+*/
 
-export default App
+export default App;
