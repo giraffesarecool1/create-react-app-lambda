@@ -10,6 +10,8 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 
+const connectingDotsCanvas = document.createElement("div");
+connectingDotsCanvas.setAttribute("id", "canvas");
 
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext('2d');
