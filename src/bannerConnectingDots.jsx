@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+/* import React, { Component } from "react"
 
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext('2d');
