@@ -47,7 +47,7 @@ function draw() {
   ctx.globalCompositeOperation = "lighter";
   
   for (let i = 0, x = stars.length; i < x; i++) {
-    lets = stars[i];
+    let s = stars[i];
   
     ctx.fillStyle = "#fff";
     ctx.beginPath();
