@@ -19,7 +19,7 @@ var canvas = document.getElementById("canvas"),
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-var stars = [], // Array that contains the stars
+let stars = [], // Array that contains the stars
     FPS = 60, // Frames per second
     x = 100, // Number of stars
     mouse = {
