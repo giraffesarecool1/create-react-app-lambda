@@ -6,7 +6,7 @@ import aboutSection from './aboutSection'
 import navBar from './navBar'
 import projectsSection from './projectsSection'
 import contactSection from './contactSection'
-/*
+
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
@@ -35,7 +35,7 @@ class LambdaDemo extends Component {
     )
   }
 }
-*/
+
 class App extends Component {
   render() {
     return (
