@@ -104,4 +104,4 @@ function tick() {
 
 tick();
 
-export default bannerConnectingDots;
+export default bannerConnectingDots; */
