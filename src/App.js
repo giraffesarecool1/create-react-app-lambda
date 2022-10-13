@@ -6,8 +6,8 @@ import aboutSection from './aboutSection'
 import navBar from './navBar'
 import projectsSection from './projectsSection'
 import contactSection from './contactSection'
-
-/* class LambdaDemo extends Component {
+/*
+class LambdaDemo extends Component {
   constructor(props) {
     super(props)
     this.state = { loading: false, msg: null }
@@ -35,7 +35,7 @@ import contactSection from './contactSection'
     )
   }
 }
-
+*/
 class App extends Component {
   render() {
     return (
@@ -54,4 +54,3 @@ class App extends Component {
 
 
 export default App;
-*/
