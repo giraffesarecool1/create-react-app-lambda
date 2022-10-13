@@ -62,8 +62,8 @@ function draw() {
     let starI = stars[i];
     ctx.moveTo(starI.x,starI.y); 
     if(distance(mouse, starI) < 150) ctx.lineTo(mouse.x, mouse.y);
-    for (var j = 0, x = stars.length; j < x; j++) {
-      var starII = stars[j];
+    for (let j = 0, x = stars.length; j < x; j++) {
+      let starII = stars[j];
       if(distance(starI, starII) < 150) {
         //ctx.globalAlpha = (1 / 150 * distance(starI, starII).toFixed(1));
         ctx.lineTo(starII.x,starII.y); 
@@ -76,8 +76,8 @@ function draw() {
 }
 
 function distance( point1, point2 ){
-  var xs = 0;
-  var ys = 0;
+  let xs = 0;
+  let ys = 0;
  
   xs = point2.x - point1.x;
   xs = xs * xs;
