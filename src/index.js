@@ -16,8 +16,8 @@ connectingDotsCanvas.setAttribute("id", "canvas");
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext('2d');
 
-canvas.width = 100;
-canvas.height = 100;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 let stars = [], // Array that contains the stars
     FPS = 60, // Frames per second
