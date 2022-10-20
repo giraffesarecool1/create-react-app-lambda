@@ -1,11 +1,14 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
-/* import bannerConnectingDots from './bannerConnectingDots';
+
 import aboutSection from './aboutSection'
 import navBar from './navBar'
 import projectsSection from './projectsSection'
 import contactSection from './contactSection'
+
+
+/* import bannerConnectingDots from './bannerConnectingDots';
 */
 
 class LambdaDemo extends Component {
@@ -52,6 +55,12 @@ class App extends Component {
     )
   }
 }
+
+navBar();
+aboutSection();
+projectsSection();
+contactSection();
+
 
 
 export default App;
