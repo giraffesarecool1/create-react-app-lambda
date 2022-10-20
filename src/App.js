@@ -51,10 +51,10 @@ class App extends Component {
           </p>
           <LambdaDemo />
 
-          <NavBar />;
-<AboutSection />;
-<ProjectsSection />;
-<ContactSection />;
+          <NavBar />
+<AboutSection />
+<ProjectsSection />
+<ContactSection />
         </header>
       </div>
     )
