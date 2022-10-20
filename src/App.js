@@ -5,7 +5,7 @@ import "./App.css"
 import aboutSection from './aboutSection'
 import navBar from './navBar'
 import projectsSection from './projectsSection'
-//import contactSection from './contactSection'
+import contactSection from './contactSection'
 
 
 /* import bannerConnectingDots from './bannerConnectingDots';
@@ -56,10 +56,10 @@ class App extends Component {
   }
 }
 
-navBar();
-aboutSection();
-projectsSection();
-//contactSection();
+navBar;
+aboutSection;
+projectsSection;
+contactSection;
 
 
 
