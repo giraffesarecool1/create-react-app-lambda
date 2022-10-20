@@ -59,7 +59,7 @@ class App extends Component {
 navBar();
 aboutSection();
 projectsSection();
-contactSection();
+//contactSection();
 
 
 
