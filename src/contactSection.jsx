@@ -1,3 +1,5 @@
+/*import React, { Component }  from 'react';
+
 const contactSection = () => {
     return (
         <div class="flexwrapper">
@@ -13,3 +15,6 @@ const contactSection = () => {
 }
 
 export default contactSection;
+*/
+
+return <p>hello world</p>;
