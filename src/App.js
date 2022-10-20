@@ -56,10 +56,10 @@ class App extends Component {
   }
 }
 
-navBar;
-aboutSection;
-projectsSection;
-contactSection;
+<navBar />;
+<aboutSection />;
+<projectsSection />;
+<contactSection />;
 
 
 
