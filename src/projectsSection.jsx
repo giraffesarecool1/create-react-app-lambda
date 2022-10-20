@@ -1,6 +1,8 @@
 import crimeMap from "./crimeMap.jpg";
 import podcastPlanners from "./podcastPlanners.jpg";
 
+import React, { Component }  from 'react';
+
 const projectsSection = () => {
     return (
         <div class="flexwrapper">
