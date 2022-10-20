@@ -1,9 +1,8 @@
 import crimeMap from "./crimeMap.jpg";
 import podcastPlanners from "./podcastPlanners.jpg";
-
 import React, { Component }  from 'react';
 
-const projectsSection = () => {
+const ProjectsSection = () => {
     return (
         <div class="flexwrapper">
             <h2>Projects</h2>
@@ -19,4 +18,4 @@ const projectsSection = () => {
     )
 }
 
-export default projectsSection;
+export default ProjectsSection;
