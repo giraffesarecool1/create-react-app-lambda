@@ -2,10 +2,10 @@ import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
 
-import aboutSection from './aboutSection'
-import navBar from './navBar'
-import projectsSection from './projectsSection'
-import contactSection from './contactSection'
+import AboutSection from './aboutSection'
+import NavBar from './navBar'
+import ProjectsSection from './projectsSection'
+import ContactSection from './contactSection'
 
 
 /* import bannerConnectingDots from './bannerConnectingDots';
@@ -51,15 +51,14 @@ class App extends Component {
           </p>
           <LambdaDemo />
         </header>
+        <NavBar />;
+<AboutSection />;
+<ProjectsSection />;
+<ContactSection />;
+
       </div>
     )
   }
-}
-
-<navBar />;
-<aboutSection />;
-<projectsSection />;
-<contactSection />;
 
 
 
