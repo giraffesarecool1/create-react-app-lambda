@@ -1,6 +1,8 @@
 /*import profilePic from "./profilePic.jpg"
 */
 
+
+import React, { Component }  from 'react';
 const aboutSection = () => {
     return (
         <div class="flexwrapper">
