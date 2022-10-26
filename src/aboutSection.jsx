@@ -3,7 +3,7 @@
 
 
 import React, { Component }  from 'react';
-const aboutSection = () => {
+const AboutSection = () => {
     return (
         <div class="flexwrapper">
             <h2>About</h2>
@@ -23,4 +23,4 @@ const aboutSection = () => {
     )
 }
 
-export default aboutSection;
+export default AboutSection;
