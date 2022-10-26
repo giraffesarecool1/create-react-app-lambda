@@ -6,9 +6,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 6rem;
+  border-bottom: 1px solid #1a1a1a;
+  background-color: rgba(40,40,40,0.95);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+  z-index: 99999999999;
+}
+
+.navbar ul {
+  display: flex;
+  margin-right: 10rem;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
