@@ -83,6 +83,7 @@ width: auto;
 
 .AboutSection div {
   display: inline-flex;
+  flex-direction: column;
 }
 
 #me {
