@@ -76,3 +76,21 @@ h2 {
   z-index: 9999;
 }
 
+.AboutSection img{
+height: 60px;
+width: auto;
+}
+
+#me {
+  width: 240px;
+}
+
+.flexwrapper {
+  display: flex;
+}
+
+.skills {
+  flex-wrap:wrap;
+  flex-direction: column;
+  height: 220px;
+}
