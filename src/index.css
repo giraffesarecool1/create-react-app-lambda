@@ -81,13 +81,16 @@ height: 60px;
 width: auto;
 }
 
-.AboutSection div {
+.AboutSection > div {
   display: inline-flex;
   flex-direction: column;
+width: 50%;
+margin: 0;
 }
 
 #me {
   width: 240px;
+  height: 367px;
 }
 
 .flexwrapper {
