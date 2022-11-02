@@ -85,10 +85,14 @@ width: auto;
 .AboutSection > div {
   display: inline-flex;
   flex-direction: column;
-width: 50%;
+width: 40%;
 margin: 0;
 justify-content: space-between;
 align-items: center;
+}
+
+.AboutSection {
+  justify-content: space-around;
 }
 
 .AboutSection > div > div {
