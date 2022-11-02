@@ -92,7 +92,7 @@ align-items: center;
 }
 
 .AboutSection {
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .AboutSection > div > div {
