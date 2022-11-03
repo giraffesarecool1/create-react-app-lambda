@@ -95,7 +95,7 @@ align-items: center;
   justify-content: space-evenly;
 }
 
-.AboutSection > div > div {
+.AboutSection .flexcolumn {
     position: relative;
     display: flex;
     flex-direction: column;
