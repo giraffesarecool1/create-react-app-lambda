@@ -113,6 +113,12 @@ align-items: center;
     overflow: hidden;
 }
 
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 
 #me {
   width: 240px;
