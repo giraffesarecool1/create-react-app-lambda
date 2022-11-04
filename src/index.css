@@ -136,6 +136,6 @@ flex-wrap: wrap;
 
 .skills {
   flex-wrap:wrap;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
 }
