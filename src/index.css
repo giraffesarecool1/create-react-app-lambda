@@ -88,7 +88,6 @@ width: auto;
 width: 40%;
 margin: 0;
 justify-content: space-evenly;
-align-items: center;
 height: 100%;
 flex-wrap: wrap;
 }
@@ -138,4 +137,5 @@ flex-wrap: wrap;
   flex-wrap:wrap;
   flex-direction: row !important;
   height: 100%;
+  align-items: stretch;
 }
