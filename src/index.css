@@ -84,7 +84,7 @@ width: auto;
 
 .AboutSection > div {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
 width: 40%;
 margin: 0;
 justify-content: space-between;
