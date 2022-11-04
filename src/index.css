@@ -100,8 +100,7 @@ flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  left: 10%;
 }
 
 .flexcolumn > div {
