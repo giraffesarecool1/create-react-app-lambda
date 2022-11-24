@@ -130,7 +130,7 @@ width: auto;
 }
 
 .flexwrapper {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
 }
 
